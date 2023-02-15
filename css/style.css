@@ -11,6 +11,36 @@
     height: 120px;
 }
 
-.ms_border-debug{
+.ms_border-debug-red{
     border: 1px dashed red;
+}
+
+.ms_border-debug-white{
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+.ms_debug-bg-color-light{
+    background-color: aquamarine;
+}
+
+.ms_debug-bg-color-dark{
+    background-color: rgb(200, 97, 1);
+}
+.ms_debug-bg-color-grey{
+    background-color: rgb(194, 194, 194);
+}
+
+
+
+
+
+/*rules*/
+
+main{
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+}
+
+aside{
+    width: 80px;
 }
