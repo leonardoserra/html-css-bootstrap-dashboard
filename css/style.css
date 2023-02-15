@@ -49,10 +49,33 @@ main{
 }
 
 #aside{
-    width: 80px;
+    min-width: 50px;
     min-height: 200px;
 }
 
 #content{
-    width: calc(100vw - 80px);
+    width: calc(100vw - 50px);
+}
+
+.ms_hidden{
+    display: none;
+}
+
+
+
+/*********media query*********/
+
+@media all and (min-width: 768px) {
+
+    .ms_hidden{
+        display: inline;
+    }
+
+    #aside{
+        width: 100px;
+    }
+
+    #content{
+        width: calc(100vw - 100px);
+    }
 }
