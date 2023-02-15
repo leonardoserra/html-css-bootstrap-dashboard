@@ -39,10 +39,12 @@ background-color: pink;
 }
 
 /*palette colori da utilizzare*/
+
 :root{
     --primary-color: #1b72e8;
     --primary-dark-color: #0b54b7;
     --secondary-color: #d4d9dd;
+    --secondary-dark-color: #c0c3c6bd;
     --tertiary-color: #051e34;
     --orange-color: #f2614c;
     --green-color: #198754;
@@ -60,6 +62,25 @@ main{
 #aside{
     min-width: 50px;
     min-height: 200px;
+    background-image: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--tertiary-color);
+}
+#aside a{
+    color: var(--secondary-color);
+}
+
+#aside i{
+    margin: 0 5px;
+}
+
+#aside > div{
+    transition: background-color 0.5s;
+}
+
+#aside > div:hover{
+    background-color: var(--secondary-dark-color);
 }
 
 #content{
@@ -74,7 +95,9 @@ main{
 
 /*********media query*********/
 
-@media all and (min-width: 768px) {
+
+/*LG*/
+@media all and (min-width: 992px) {
 
     .ms_hidden{
         display: inline;
