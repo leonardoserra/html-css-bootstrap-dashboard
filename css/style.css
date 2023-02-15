@@ -38,8 +38,17 @@
 background-color: pink;
 }
 
-
-
+/*palette colori da utilizzare*/
+:root{
+    --primary-color: #1b72e8;
+    --primary-dark-color: #0b54b7;
+    --secondary-color: #d4d9dd;
+    --tertiary-color: #051e34;
+    --orange-color: #f2614c;
+    --green-color: #198754;
+    --yellow-color: #ffc107;
+    --red-color: #dc3545;
+}
 
 /*rules*/
 
