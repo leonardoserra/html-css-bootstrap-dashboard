@@ -26,8 +26,13 @@
 .ms_debug-bg-color-dark{
     background-color: rgb(200, 97, 1);
 }
+
 .ms_debug-bg-color-grey{
     background-color: rgb(194, 194, 194);
+}
+
+.ms_debug-bg-color-lighter{
+    background-color: rgb(153, 255, 221);
 }
 
 
@@ -41,6 +46,11 @@ main{
     margin-top: 70px;
 }
 
-aside{
+/* aside{
     width: 80px;
+} */
+
+#content{
+    /* width: calc(100vw - 80px); */
+    height: 100%;
 }
