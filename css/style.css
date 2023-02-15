@@ -1,0 +1,13 @@
+/*debug*/
+
+.ms_debug-box-small{
+    height: 40px;
+}
+
+.ms_debug-box-large{
+    height: 120px;
+}
+
+.ms_border-debug{
+    border: 1px dashed red;
+}
