@@ -65,13 +65,20 @@
     padding-right:10px;
     margin-left: -10px;
 }
+
 #ms_logo-boolean{
     padding-right:10px;
     max-width: 160px;
 }
 
+header .navbar .dropdown .dropdown-menu{
+    color: var(--tertiary-color);
+    left:-150px;
+}
+
 .navbar{
     background-color:var(--white-color);
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 
@@ -131,14 +138,23 @@ main{
     background-color: var(--secondary-dark-color);
 }
 
-#content{
-    width: calc(100vw - 50px);
-}
-
 .ms_hidden{
     display: none;
 }
 
+/*content*/
+
+#content{
+    width: calc(100vw - 50px);
+}
+
+#content-top{
+    background-color: var(--primary-color);
+}
+
+#content-top-1 .btn{
+    padding: ;
+}
 
 
 /*********media query*********/
