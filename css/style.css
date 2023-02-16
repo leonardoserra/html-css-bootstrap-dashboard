@@ -151,6 +151,11 @@ main{
 #content-top{
     background-color: var(--primary-color);
 }
+#content-top-1,
+#content-top-2,
+#content-top-3{
+    min-height: 50px;
+}
 
 #content-top-1 .btn{
     padding: ;
