@@ -9,6 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
     </head>
     <body>
         
@@ -17,25 +18,27 @@
             
             <div class="row">
 
-                <nav class="navbar bg-body-tertiary">
+                <nav class="navbar">
                     <form class="container-fluid">
-                      <div class="input-group align-items-center">
-                        <img id="ms_logo-boolean-mobile" class="" src="./img/mobile-logo.png" alt="mobile-logo" />
-                        <img id="ms_logo-boolean" class="ms_hidden" src="./img/logo.svg" alt="logo" />
-                        <input type="text" class="form-control" placeholder="Prova a cercare, lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                        <a href="#" class="ms_hidden  ">
-                            <i class="fa-solid fa-list-ul"></i>
-                        </a>
-                        <a href="#" class="ms_hidden  ">
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                        <a href="#" class="ms_hidden  ">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </a>
-                        <a href="#" class="   ">
-                            <i class="fa-solid fa-bell"></i>
-                        </a>
-                      </div>
+                        <div class="input-group align-items-center">
+                            <img id="ms_logo-boolean-mobile" class="" src="./img/mobile-logo.png" alt="mobile-logo" />
+                            <img id="ms_logo-boolean" class="ms_hidden" src="./img/logo.svg" alt="logo" />
+                            <input type="text" class="form-control rounded-1" placeholder="&#xf002; Prova a cercare, lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                            
+                            <a href="#" class="ms_hidden  ">
+                                <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                            <a href="#" class="ms_hidden  ">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                            <a href="#" class="ms_hidden  ">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                            <a href="#" class="   ">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+
+                        </div>
                     </form>
                   </nav>
             
@@ -48,7 +51,9 @@
         <!-------      MAIN      --------->
 
         <main class="container-fluid d-flex p-0 ms_debug-bg-color-light">
-
+            
+            
+            <!--        aside        -->
             <div id=aside class="h-100 position-relative">
                 <div class="p-2">
                     <a class="text-decoration-none" href="">
@@ -84,11 +89,16 @@
                 </div>
             </div>
 
+
+
+
+            <!--        content        -->
+
             <div id="content" class="container-fluid h-100 overflow-y-auto">
                 <div id="content-top" class="row ms_debug-bg-color-light">
-                    <div class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">nuovo studente</div>
-                    <div class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">Boolean e Breadcrumb pills</div>
-                    <div class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">Studenti online e numero</div>
+                    <div id="content-top-1" class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">nuovo studente</div>
+                    <div id="content-top-2" class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">Boolean e Breadcrumb pills</div>
+                    <div id="content-top-3" class="col-sm-12 col-md-4 ms_border-debug-red ms_debug-box-medium">Studenti online e numero</div>
                 </div>
                 <div id="content-body" class="row ms_debug-bg-color-pink">
                     <div class="col-sm-12 col-md-6 ms_border-debug-red">
