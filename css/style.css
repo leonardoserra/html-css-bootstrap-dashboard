@@ -45,7 +45,7 @@
     --primary-dark-color: #0a4aa4;
     --secondary-color: #bebec0;
     --secondary-light-color: #ebebeb;
-    --secondary-dark-color: #a8a4a49c;
+    --secondary-dark-color: #5d5d5d9c;
     --tertiary-color: #051e34;
     --orange-color: #f2614c;
     --green-color: #198754;
@@ -188,6 +188,30 @@ main{
     color: var(--tertiary-color);
 }
 
+#content-body table thead tr{
+    color:var(--secondary-dark-color)
+}
+#content-body table tbody th{
+    min-width: 80px;
+}
+
+#content-body table tbody th:first-child img{
+    width: 20px;
+    border-radius: 50%;
+}
+
+#content-body table tbody th:first-child span{
+    margin-left:5px;
+}
+#content-body table tbody .btn{
+    width: 30px;
+}
+
+
+/* #content-body table thead th{
+    width: 25px;
+    border-radius: 50%;
+} */
 
 /*********media query*********/
 
@@ -237,5 +261,9 @@ main{
 
     #content-top-2 #badges-lg{
         display: inline;
+    }
+
+    #content-body table thead th:first-child{
+        width:40%
     }
 }
