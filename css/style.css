@@ -95,6 +95,7 @@ main{
 
 
 /*aside*/
+
 #aside{
     min-width: 50px;
     min-height: 200px;
@@ -102,6 +103,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--tertiary-color);
+    text-align: center;
 }
 #aside a{
     color: var(--secondary-color);
@@ -144,6 +146,7 @@ main{
 
     #aside{
         width: 100px;
+        text-align: left;
     }
 
     #content{
