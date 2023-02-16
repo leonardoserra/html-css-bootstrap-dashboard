@@ -72,7 +72,9 @@
 }
 
 /*rules*/
-
+body{
+    background-color: var(--secondary-light-color);
+}
 
 /***************HEADER*****************/
 
@@ -188,6 +190,12 @@ main{
     color: var(--tertiary-color);
 }
 
+
+/*table*/
+
+.ms_hidden-date, .ms_hidden-roi{
+    display: none;
+}
 #content-body table thead tr{
     color:var(--secondary-dark-color)
 }
@@ -231,6 +239,10 @@ main{
     #content-top-3{
         order: 2;
     }
+
+    .ms_hidden-roi{
+        display: inline;
+    }
 }
 
 
@@ -265,5 +277,8 @@ main{
 
     #content-body table thead th:first-child{
         width:40%
+    }
+    .ms_hidden-date{
+        display: inline;
     }
 }
