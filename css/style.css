@@ -42,7 +42,7 @@
 
 :root{
     --primary-color: #1b72e8;
-    --primary-dark-color: #0b54b7;
+    --primary-dark-color: #0a4aa4;
     --secondary-color: #bebec0;
     --secondary-light-color: #ebebeb;
     --secondary-dark-color: #a8a4a49c;
@@ -53,6 +53,22 @@
     --red-color: #dc3545;
     --gold-color:#ff8f00;
     --white-color:#ffffff;
+}
+
+
+/*pills color*/
+
+.ms_pill-primary-dark-color{
+    background-color: var(--primary-dark-color);
+}
+.ms_pill-green-color{
+    background-color:var(--green-color);
+}
+.ms_pill-yellow-color{
+    background-color:var(--yellow-color);
+}
+.ms_pill-red-color{
+    background-color:var(--red-color);
 }
 
 /*rules*/
@@ -142,6 +158,8 @@ main{
     display: none;
 }
 
+
+
 /*content*/
 
 #content{
@@ -154,11 +172,16 @@ main{
 #content-top-1,
 #content-top-2,
 #content-top-3{
-    min-height: 50px;
+    min-height: 110px;
+    padding: 10px;
 }
 
 #content-top-1 .btn{
     padding: ;
+}
+
+#content-top-2 #badges-lg{
+    display: none;
 }
 
 #link-photo{
@@ -191,9 +214,14 @@ main{
 /*LG*/
 @media all and (min-width: 992px) {
 
+    #badge-hidden{
+        display: none;
+    }
+
     #ms_logo-boolean-mobile{
         display: none;
     }
+
     .ms_hidden{
         display: inline;
     }
@@ -207,4 +235,7 @@ main{
         width: calc(100vw - 100px);
     }
 
+    #content-top-2 #badges-lg{
+        display: inline;
+    }
 }
