@@ -172,7 +172,6 @@ main{
 #content-top-1,
 #content-top-2,
 #content-top-3{
-    min-height: 110px;
     padding: 10px;
 }
 
@@ -197,6 +196,7 @@ main{
 @media all and (min-width: 768px) {
     
     #content-top-1{
+        text-align: right;
         order: 3;
     }
     
