@@ -100,7 +100,11 @@ header .navbar .dropdown .dropdown-menu{
 }
 
 
-.navbar input{
+
+.navbar #search-bar,
+.navbar #search-symbol {
+    height: 36px;
+    margin:0;
     background-color: var(--secondary-dark-color);
 }
 
