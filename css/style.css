@@ -270,7 +270,9 @@ main{
     #content{
         width: calc(100vw - 100px);
     }
-
+    #offcanvas{
+        width: 80%;
+    }
     #content-top-2 #badges-lg{
         display: inline;
     }
