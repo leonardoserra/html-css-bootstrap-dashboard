@@ -50,6 +50,8 @@
     --green-color: #198754;
     --yellow-color: #ffc107;
     --red-color: #dc3545;
+    --gold-color:#ff8f00;
+    --white-color:#ffffff;
 }
 
 /*rules*/
@@ -61,15 +63,18 @@ header{
 }
 
 #ms_logo-boolean-mobile{
-    padding-right:10px;
     max-width: 50px;
+    padding-right:10px;
+    margin-left: -10px;
 }
 #ms_logo-boolean{
     padding-right:10px;
     max-width: 160px;
 }
 
-
+.navbar{
+    background-color:var(--white-color);
+}
 .input-group i{
     text-decoration: none;
     margin-left:10px;
@@ -77,14 +82,14 @@ header{
 }
 
 .input-group .fa-bell{
-    color: #ff8f00;
+    color: var(--gold-color);
 }
 
 /**********MAIN********/
 
 main{
-    height: calc(100vh - 53px);
-    margin-top: 53px;
+    height: calc(100vh - 57px);
+    margin-top: 57px;
 }
 
 
