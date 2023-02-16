@@ -156,6 +156,11 @@ main{
     padding: ;
 }
 
+#link-photo{
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
 
 /*********media query*********/
 
