@@ -54,11 +54,31 @@ background-color: pink;
 
 /*rules*/
 
-main{
-    height: calc(100vh - 70px);
-    margin-top: 70px;
+
+/***************HEADER*****************/
+
+
+#ms_logo-boolean-mobile{
+    padding-right:10px;
+    max-width: 50px;
+}
+#ms_logo-boolean{
+    padding-right:10px;
+    max-width: 160px;
 }
 
+
+
+/**********MAIN********/
+
+main{
+    height: calc(100vh - 84px);
+    margin-top: 84px;
+}
+
+
+
+/*aside*/
 #aside{
     min-width: 50px;
     min-height: 200px;
@@ -99,6 +119,9 @@ main{
 /*LG*/
 @media all and (min-width: 992px) {
 
+    #ms_logo-boolean-mobile{
+        display: none;
+    }
     .ms_hidden{
         display: inline;
     }
