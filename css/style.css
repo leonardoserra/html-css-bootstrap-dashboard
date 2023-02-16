@@ -35,7 +35,7 @@
     background-color: rgb(153, 255, 221);
 }
 .ms_debug-bg-color-pink{
-background-color: pink;
+    background-color: pink;
 }
 
 /*palette colori da utilizzare*/
@@ -56,7 +56,9 @@ background-color: pink;
 
 
 /***************HEADER*****************/
-
+header{
+    max-height: 53px;
+}
 
 #ms_logo-boolean-mobile{
     padding-right:10px;
@@ -68,12 +70,21 @@ background-color: pink;
 }
 
 
+.input-group i{
+    text-decoration: none;
+    margin-left:10px;
+    color:var(--tertiary-color)
+}
+
+.input-group .fa-bell{
+    color: #ff8f00;
+}
 
 /**********MAIN********/
 
 main{
-    height: calc(100vh - 84px);
-    margin-top: 84px;
+    height: calc(100vh - 53px);
+    margin-top: 53px;
 }
 
 
